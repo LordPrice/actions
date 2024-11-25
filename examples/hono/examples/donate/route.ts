@@ -14,8 +14,8 @@ import { Hono } from 'hono';
 import { LinkedActionType } from '@solana/actions-spec';
 
 const DONATION_DESTINATION_WALLET =
-  '3h4AtoLTh3bWwaLhdtgQtcC3a3Tokb8NJbtqR9rhp7p6';
-const DONATION_AMOUNT_SOL_OPTIONS = [1, 5, 10];
+  'u1bDRdeRSpG9DPWtHVH2dyiww1pAcYNGt7WB34z3c7E';
+const DONATION_AMOUNT_SOL_OPTIONS = [0.1, 0.5, 1];
 const DEFAULT_DONATION_AMOUNT_SOL = 1;
 
 const app = new Hono();
@@ -93,10 +93,10 @@ function getDonateInfo(): Pick<
   'icon' | 'title' | 'description'
 > {
   const icon =
-    'https://ucarecdn.com/7aa46c85-08a4-4bc7-9376-88ec48bb1f43/-/preview/880x864/-/quality/smart/-/format/auto/';
-  const title = 'Donate to Alice';
+    'https://discord.com/channels/1310442039812554905/1310442040642895894/1310442122599469138';
+  const title = 'Donate to Oscar';
   const description =
-    'Cybersecurity Enthusiast | Support my research with a donation.';
+    'Ragazzo entusiasta | Supporta la mia ricerca in questa vita.';
   return { icon, title, description };
 }
 
